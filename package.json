@@ -1,7 +1,7 @@
 {
-  "name": "gatsby-starter-hello-world",
+  "name": "backroads",
   "private": true,
-  "description": "A simplified bare-bones starter for Gatsby",
+  "description": "Backroad Tours",
   "version": "0.1.0",
   "license": "MIT",
   "scripts": {
@@ -13,18 +13,22 @@
     "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\""
   },
   "dependencies": {
-    "gatsby": "^2.13.51",
+    "eslint-config-airbnb-base": "^14.0.0",
+    "eslint-plugin-import": "^2.18.2",
+    "gatsby": "^2.13.58",
     "react": "^16.8.6",
-    "react-dom": "^16.8.6"
+    "react-dom": "^16.9.0"
   },
   "devDependencies": {
     "eslint": "^6.1.0",
+    "eslint-config-prettier": "^6.0.0",
+    "eslint-plugin-prettier": "^3.1.0",
     "eslint-plugin-react": "^7.14.3",
-    "prettier": "^1.18.2"
+    "prettier": "1.18.2"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/gatsbyjs/gatsby-starter-hello-world"
+    "url": "https://bodhicougar.github.io/backroads/"
   },
   "bugs": {
     "url": "https://github.com/gatsbyjs/gatsby/issues"
