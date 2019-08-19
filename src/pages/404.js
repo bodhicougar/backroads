@@ -1,11 +1,5 @@
 import React from 'react'
 
-const PageNotFound = () => {
-  return (
-    <div>
-      <h1>Error: Seite nicht gefunden!</h1>
-    </div>
-  )
+export default function error() {
+  return <div>Ein Fehler ist aufgetreten! Hurz!</div>
 }
-
-export default PageNotFound
