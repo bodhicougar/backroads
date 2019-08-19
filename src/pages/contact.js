@@ -1,5 +1,6 @@
 import React from 'react'
+import Layout from '../components/Layout'
 
 export default function contact() {
-  return <div>Hallo, Ihr Rosetten! Das ist die Kontaktseite!</div>
+  return <Layout>Hallo from contact, Rosetten!</Layout>
 }

@@ -1,5 +1,6 @@
 import React from 'react'
+import Layout from '../components/Layout'
 
 export default function error() {
-  return <div>Ein Fehler ist aufgetreten! Hurz!</div>
+  return <Layout>Ein Fehler ist aufgetreten, Du Haubentaucher!</Layout>
 }
