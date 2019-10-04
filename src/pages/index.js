@@ -4,6 +4,6 @@ import Layout from '../components/Layout'
 
 export default () => (
   <Layout>
-    Hallo, Welt!<Link to="/blog/">Blog page</Link>
+    <div>Hello from Backroad Tours</div>
   </Layout>
 )
