@@ -1,7 +1,7 @@
 export default [
   {
     path: '/',
-    text: 'Home',
+    text: 'Start',
   },
   {
     path: '/tours',
@@ -13,6 +13,6 @@ export default [
   },
   {
     path: '/contact',
-    text: 'Contact',
+    text: 'Kontakt',
   },
 ]

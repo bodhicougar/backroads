@@ -6,16 +6,17 @@ import links from '../constants/links'
 import socialIcons from '../constants/social-icons'
 import logo from '../images/logo.svg'
 
-const navbar = () => {
-  const [isOpen, setNav] = useState(false)
+const Navbar = () => {
+  const [isOpen, setNav] = useState()
   const toggleNav = () => {
     setNav(isOpen => !isOpen)
   }
+
   return (
     <nav className={styles.navbar}>
       <div className={styles.navCenter}>
         <div className={styles.navHeader}>
-          <img src={logo} alt="Backroads logo" />
+          <img src={logo} alt="backroads logo" />
           <button type="button" className={styles.logoBtn} onClick={toggleNav}>
             <FaAlignRight className={styles.logoIcon} />
           </button>
@@ -24,7 +25,7 @@ const navbar = () => {
           className={
             isOpen
               ? `${styles.navLinks} ${styles.showNav}`
-              : `{styles.navLinks}`
+              : `${styles.navLinks}`
           }
         >
           {links.map((item, index) => {
@@ -54,4 +55,4 @@ const navbar = () => {
   )
 }
 
-export default navbar
+export default Navbar
