@@ -3,7 +3,7 @@ import { useStaticQuery, graphql } from 'gatsby'
 
 const getSiteData = graphql`
   query SecondQuery {
-    site(siteMetadata: {}, port: {}, parent: { children: {}, id: {} }) {
+    site(siteMetadata: { author: {}, data: {}, desription: {} }) {
       siteMetadata {
         title
         desription
