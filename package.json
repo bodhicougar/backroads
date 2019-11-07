@@ -39,15 +39,5 @@
   },
   "bugs": {
     "url": "https://github.com/gatsbyjs/gatsby/issues"
-<<<<<<< HEAD
-  },
-  "main": "gatsby-config.js",
-  "keywords": [
-    "backroads"
-  ],
-  "author": "bodhicougar"
-}
-=======
   }
 }
->>>>>>> 600d3596f8c447054738c692a3252af851643425
