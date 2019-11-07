@@ -1,7 +1,7 @@
 {
   "name": "backroads",
   "private": true,
-  "description": "Backroad Tours",
+  "description": "Backroad Picking Tours",
   "version": "0.1.0",
   "license": "MIT",
   "scripts": {
