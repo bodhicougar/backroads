@@ -6,7 +6,7 @@ import { graphql } from 'gatsby'
 const blog = ({ data }) => {
   return (
     <Layout>
-      Hello from blog page: <Link to="/">Back home</Link>
+      Hello from blog page: <Link to="/">Zurück.</Link>
       <h1>Title: {data.site.siteMetadata.title}</h1>
     </Layout>
   )
