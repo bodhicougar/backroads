@@ -10,7 +10,7 @@ export default function error() {
       <header className={styles.error}>
         <Banner title="Einbahnstrasse: Ein Fehler ist aufgetreten!">
           <Link to="/" className="btn-white">
-            Zurück zur Startseite
+            Zurück zur Startseite.
           </Link>
         </Banner>
       </header>
