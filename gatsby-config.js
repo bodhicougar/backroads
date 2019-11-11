@@ -1,3 +1,4 @@
+/* eslint-disable no-undef */
 /**
  * Configure your Gatsby site with this file.
  *
@@ -15,5 +16,15 @@ module.exports = {
       age: 55,
     },
   },
-  plugins: [`gatsby-plugin-sass`, `gatsby-plugin-styled-components`],
+  plugins: [
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `images`,
+        path: `${__dirname}/src/images/`,
+      },
+    },
+    `gatsby-plugin-sass`,
+    `gatsby-plugin-styled-components`,
+  ],
 }
