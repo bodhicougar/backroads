@@ -9,7 +9,7 @@ const getImages = graphql`
     fixed: file(relativePath: { eq: "defaultBcg.jpeg" }) {
       id
       childImageSharp {
-        fixed(width: 150, height: 150, grayscale: true) {
+        fixed(width: 250, grayscale: true) {
           ...GatsbyImageSharpFixed
         }
       }
