@@ -1,6 +1,6 @@
 [[plugins]]
-package = "netlify-plugin-gatsby-cache"
-package = "netlify-plugin-minify-html"
+package = ["netlify-plugin-gatsby-cache", "netlify-plugin-minify-html"]
+
 # Specify which deploy contexts we'll minify HTML in.
 # Supports any Deploy Contexts available in Netlify.
 # https://docs.netlify.com/site-deploys/overview/#deploy-contexts
