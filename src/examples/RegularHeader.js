@@ -3,10 +3,10 @@ import { StaticQuery, graphql } from 'gatsby'
 
 const getSiteData = graphql`
   query FirstQuery {
-    site(siteMetadata: { author: {}, data: {}, desription: {} }) {
+    site(siteMetadata: { author: {}, data: {}, description: {} }) {
       siteMetadata {
         title
-        desription
+        description
         author
       }
     }
@@ -17,7 +17,7 @@ const RegularHeader = () => {
   return (
     <StaticQuery
       query={getSiteData}
-      render={data => {
+      render={(data) => {
         return <h1>Hello people!</h1>
       }}
     />

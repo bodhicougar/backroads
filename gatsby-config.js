@@ -8,7 +8,7 @@
 module.exports = {
   siteMetadata: {
     title: 'BackRoads',
-    desription:
+    description:
       'Explore very cool Worldwide Tours & discover what make each of them unique. Forget your daily routine & and say yes! to adventure',
     author: '@bodhicougar',
     data: {
