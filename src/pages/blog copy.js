@@ -17,7 +17,7 @@ export const query = graphql`
     site {
       siteMetadata {
         title
-        desription
+        description
         author
         data {
           age
